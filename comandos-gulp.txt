@@ -1,0 +1,30 @@
+Instalación de Gulp en tu Ordenador
+  1) npm install --global gulp-cli -> Este comando solo se tiene que ejecutar una vez para instalarlo en tu ordenador.
+
+Iniciar un Proyecto de NodeJS
+  1) npm init -> Este comando sirve para iniciar un proyecto de NodeJS
+
+Instalar las configuraciones de Gulp
+  1) npm install --save-dev gulp -> Crea una dependencia de desarrollo
+  2) npm install --save-dev @babel/core @babel/register @babel/preset-env
+
+Instalar comandos de JavaScript babel
+  1) npm install --save-dev gulp-babel -> Convierte codigo JS nuevo a codigo viejo
+  2) npm install --save-dev gulp-terser -> Minifica el codigo
+  3) npm install --save-dev gulp-concat -> Une todos los archivos JS e uno solo
+
+Instalar comandos para HTML
+  1) npm install --save-dev gulp-htmlmin -> Minifica el codigo
+
+Instalar comandos para CSS
+  1) npm install --save-dev gulp-postcss cssnano autoprefixer
+  2) npm install --save-dev gulp-purgecss
+
+Instalar comandos para Limiar la Cache del Navegador
+  1) npm install --save-dev gulp-cache-bust
+
+Instalar comandos para comprimir Imágenes
+  1) npm install --save-dev gulp-imagemin
+
+Instalar comandos para Browser Sync
+  1) npm install --save-dev browser-sync
